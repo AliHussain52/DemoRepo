@@ -4,5 +4,9 @@
 		<packages>
 			<package name="example" />
 		</packages>
+		
+		<!-- <classes>
+		<class name="SeleniumTest"></class>
+		</classes> -->
 	</test>
 </suite>

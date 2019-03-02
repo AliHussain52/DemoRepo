@@ -9,13 +9,4 @@ public class DemoTest {
 		System.out.println("Inside Method A");
 	}
 
-	@Test
-	public void methodB() {
-		System.out.println("Inside Method B");
-	}
-
-	@Test
-	public void methodC() {
-		System.out.println("Inside Method C");
-	}
 }

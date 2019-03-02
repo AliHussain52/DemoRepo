@@ -1,53 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="9" passed="9">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="81" started-at="2019-03-02T09:47:45Z" finished-at="2019-03-02T09:47:45Z">
+  <suite name="Suite" duration-ms="76685" started-at="2019-03-02T13:57:53Z" finished-at="2019-03-02T13:59:09Z">
     <groups>
     </groups>
-    <test name="Practice" duration-ms="81" started-at="2019-03-02T09:47:45Z" finished-at="2019-03-02T09:47:45Z">
-      <class name="example.DemoTest2">
-        <test-method status="PASS" signature="methodA2()[pri:0, instance:example.DemoTest2@19dfb72a]" name="methodA2" duration-ms="0" started-at="2019-03-02T15:17:45Z" finished-at="2019-03-02T15:17:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- methodA2 -->
-        <test-method status="PASS" signature="methodB2()[pri:0, instance:example.DemoTest2@19dfb72a]" name="methodB2" duration-ms="1" started-at="2019-03-02T15:17:45Z" finished-at="2019-03-02T15:17:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- methodB2 -->
-        <test-method status="PASS" signature="methodC2()[pri:0, instance:example.DemoTest2@19dfb72a]" name="methodC2" duration-ms="2" started-at="2019-03-02T15:17:45Z" finished-at="2019-03-02T15:17:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- methodC2 -->
-      </class> <!-- example.DemoTest2 -->
+    <test name="Practice" duration-ms="76685" started-at="2019-03-02T13:57:53Z" finished-at="2019-03-02T13:59:09Z">
       <class name="example.DemoTest">
-        <test-method status="PASS" signature="methodA()[pri:0, instance:example.DemoTest@30c7da1e]" name="methodA" duration-ms="25" started-at="2019-03-02T15:17:45Z" finished-at="2019-03-02T15:17:45Z">
+        <test-method status="PASS" signature="methodA()[pri:0, instance:example.DemoTest@60f82f98]" name="methodA" duration-ms="27" started-at="2019-03-02T19:27:53Z" finished-at="2019-03-02T19:27:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- methodA -->
-        <test-method status="PASS" signature="methodB()[pri:0, instance:example.DemoTest@30c7da1e]" name="methodB" duration-ms="1" started-at="2019-03-02T15:17:45Z" finished-at="2019-03-02T15:17:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- methodB -->
-        <test-method status="PASS" signature="methodC()[pri:0, instance:example.DemoTest@30c7da1e]" name="methodC" duration-ms="0" started-at="2019-03-02T15:17:45Z" finished-at="2019-03-02T15:17:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- methodC -->
       </class> <!-- example.DemoTest -->
-      <class name="example.DemoTest3">
-        <test-method status="PASS" signature="methodA3()[pri:0, instance:example.DemoTest3@49e4cb85]" name="methodA3" duration-ms="1" started-at="2019-03-02T15:17:45Z" finished-at="2019-03-02T15:17:45Z">
+      <class name="example.SeleniumTest">
+        <test-method status="PASS" signature="seleniumTest()[pri:0, instance:example.SeleniumTest@30c7da1e]" name="seleniumTest" duration-ms="75031" started-at="2019-03-02T19:27:53Z" finished-at="2019-03-02T19:29:08Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- methodA3 -->
-        <test-method status="PASS" signature="methodB3()[pri:0, instance:example.DemoTest3@49e4cb85]" name="methodB3" duration-ms="1" started-at="2019-03-02T15:17:45Z" finished-at="2019-03-02T15:17:45Z">
+        </test-method> <!-- seleniumTest -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:example.SeleniumTest@30c7da1e]" name="quit" is-config="true" duration-ms="1588" started-at="2019-03-02T19:29:08Z" finished-at="2019-03-02T19:29:09Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- methodB3 -->
-        <test-method status="PASS" signature="methodC3()[pri:0, instance:example.DemoTest3@49e4cb85]" name="methodC3" duration-ms="2" started-at="2019-03-02T15:17:45Z" finished-at="2019-03-02T15:17:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- methodC3 -->
-      </class> <!-- example.DemoTest3 -->
+        </test-method> <!-- quit -->
+      </class> <!-- example.SeleniumTest -->
     </test> <!-- Practice -->
   </suite> <!-- Suite -->
 </testng-results>
