@@ -1,12 +1,13 @@
 <suite name="Suite">
+	<listeners>
+		<listener class-name="listener.ExtentReportListener" />
+	</listeners>
 	<test name="Practice">
 
 		<packages>
 			<package name="example" />
 		</packages>
-		
-		<!-- <classes>
-		<class name="SeleniumTest"></class>
-		</classes> -->
+
+
 	</test>
 </suite>

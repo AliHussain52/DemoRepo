@@ -5,6 +5,7 @@
     <classes>
       <class name="example.SeleniumTest">
         <methods>
+          <include name="quit"/>
           <include name="seleniumTest"/>
         </methods>
       </class> <!-- example.SeleniumTest -->
